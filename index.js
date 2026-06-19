@@ -51,13 +51,6 @@ app.get('/schema', (req, res) => {
         },
         fields: [
         {
-            name: 'id',
-            label: 'ID',
-            type: 'number',
-            required: true,
-            showInTable: true
-        },
-        {
             name: 'merk',
             label: 'Merk Mobil',
             type: 'text',
@@ -80,7 +73,7 @@ app.get('/schema', (req, res) => {
         },
         {
             name: 'harga',
-            label: 'Harga',
+            label: 'Harga (Juta Rupiah)',
             type: 'number',
             required: true,
             showInTable: true
