@@ -72,7 +72,7 @@ app.get('/schema', (req, res) => {
             showInTable: true
         },
         {
-            name: 'harga (Juta Rupiah)',
+            name: 'harga',
             label: 'Harga (Juta Rupiah)',
             type: 'number',
             required: true,
